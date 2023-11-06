@@ -23,4 +23,10 @@
 .footer-copyright {
     width: 50%;
     float: right;
+    text-align: right;
+}
+
+.columns {
+    float: left;
+    width: 33%;
 }
