@@ -1,12 +1,26 @@
 #logo {
     display: block;
-    max-width: auto;
-    max-height: auto;
+    max-width: 300px;
+    max-height: 300px;
     margin-left: auto;
     margin-right: auto;
 }
 
 .links {
+    text-align: center;
+}
+
+.links a {
+    margin: 10px;
+}
+
+.promotion {
+    text-align: center;
+}
+
+.columns {
+    float: left;
+    width: 33%;
     text-align: center;
 }
 
@@ -16,17 +30,12 @@
 }
 
 .footer-logo img {
-    width: 25%;
-    height: 25%;
+    width: 20%;
+    height: 20%;
 }
 
 .footer-copyright {
     width: 50%;
     float: right;
     text-align: right;
-}
-
-.columns {
-    float: left;
-    width: 33%;
 }
