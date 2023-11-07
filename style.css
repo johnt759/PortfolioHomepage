@@ -15,7 +15,23 @@ body {
 }
 
 .links > a {
+    background-color: silver;
+    color: teal;
+    padding: 5px;
     margin: 5px;
+    display: inline-block;
+}
+
+.links > a:visited {
+    color: olive;
+}
+
+.links > a:hover {
+    background-color: darkgray;
+}
+
+.links > a:active {
+    background-color: lightgray;
 }
 
 .article {
