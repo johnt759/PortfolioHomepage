@@ -19,7 +19,7 @@ body {
 }
 
 .links > a:link, a:visited {
-    background-color: silver;
+    background-color: lightgray;
     color: teal;
     padding: 5px;
     margin: 5px;
@@ -28,11 +28,11 @@ body {
 }
 
 .links > a:hover {
-    background-color: darkgray;
+    background-color: silver;
 }
 
 .links > a:active {
-    background-color: lightgray;
+    background-color: darkgray;
 }
 
 .article {
