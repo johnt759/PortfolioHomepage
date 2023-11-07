@@ -1,3 +1,7 @@
+* {
+    font-family: Georgia;
+}
+
 body {
     background-color: limegreen;
 }
@@ -14,16 +18,13 @@ body {
     text-align: center;
 }
 
-.links > a {
+.links > a:link, a:visited {
     background-color: silver;
     color: teal;
     padding: 5px;
     margin: 5px;
     display: inline-block;
-}
-
-.links > a:visited {
-    color: olive;
+    transition-duration: 0.4s;
 }
 
 .links > a:hover {
@@ -36,8 +37,8 @@ body {
 
 .article {
     position: flex;
-    flex: 1;
-    flex-wrap: nowrap;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #promotion {
@@ -45,6 +46,11 @@ body {
     text-align: center;
     border-radius: 10px;
     border: 2px solid;
+    transition-duration: 0.5s;
+}
+
+#promotion:hover {
+    background-color: darkgoldenrod;
 }
 
 .columns {
@@ -53,11 +59,17 @@ body {
     float: left;
     width: 33%;
     text-align: center;
+    transition-duration: 0.5s;
+}
+
+.columns:hover {
+    opacity: 0.75;
 }
 
 .columns > img {
-    width: 300px;
-    height: 200px;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
 }
 
 #footer-logo {
@@ -66,8 +78,8 @@ body {
 }
 
 #footer-logo > img {
-    width: 15%;
-    height: 15%;
+    max-height: 150px;
+    max-width: 200px;
 }
 
 #footer-copyright {
